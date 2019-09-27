@@ -6539,23 +6539,23 @@ internal-ip@^4.2.0, internal-ip@^4.3.0:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
 
-intl-format-cache@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/intl-format-cache/-/intl-format-cache-4.1.4.tgz#cd959e4ac5c7f5494a53880d8c856d636bd3e5b8"
-  integrity sha512-lT1EiDa0ISNhfwmCTAKTGC62yN6onDZQECJqGi1ekbOFlJzoaP3Vv2ZAtnt3Ar1kNWZB6MiElJ8mQrG4fsBB8Q==
+intl-format-cache@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/intl-format-cache/-/intl-format-cache-4.2.1.tgz#cd7b2d18a2e524f5fef51d3c94996e469e07f0b3"
+  integrity sha512-H4XtqFAaLkw7S9qLLLt/CdSLPVrcWqbr9oqmTvyzo7OelnOR8UDsIoK9TQ2f8powT2Fsm7lJ8aUFx+uNCVfuTA==
 
-intl-messageformat-parser@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-3.0.0.tgz#efcfa588065622ec863807aa0f8d88d072df6fe0"
-  integrity sha512-ADvW4HkLgyBBh+Dr7pHHnLfLZLTpg4oF9FCQlZf5QZdhTIWgfmmbgDvbzRsw7Go235ypjQPMNFp0BrVda0v/Rw==
+intl-messageformat-parser@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-3.2.0.tgz#de7ba62cdc8edc80d2b21eb5ada1728b0fdff198"
+  integrity sha512-07G+OTgIEsYIPpy793/EU14Slz03nqouODE+CGXlojw1gOF1IaUXk99EOlVdKsPwl95hUJon4dsp9D7/XPBDCw==
 
-intl-messageformat@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-6.0.0.tgz#974daf75bde3e50bfae4f4e9e23621676f6b9ceb"
-  integrity sha512-Ab750iWrkxOdG9+2pHTZEHXJWpIVj+JvQM403ciexBW1TjR61QRXzd0jPWOcCewEc0Mcbh+KIZ5Qllf3hy5HXw==
+intl-messageformat@^7.3.1:
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-7.3.1.tgz#896fc42b83cdd38da807fb9b5666cdafb09ee327"
+  integrity sha512-89uEUl55pBPZgLznTVpwva1OxitiIemanucu9NeoiGcAw6jMyFhPtPAPjaT64TwbA3zNxtQm30atWx+RY9jGXg==
   dependencies:
-    intl-format-cache "^4.1.4"
-    intl-messageformat-parser "^3.0.0"
+    intl-format-cache "^4.2.1"
+    intl-messageformat-parser "^3.2.0"
 
 invariant@^2.2.2, invariant@^2.2.3, invariant@^2.2.4:
   version "2.2.4"
