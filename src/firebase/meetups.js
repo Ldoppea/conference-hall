@@ -26,6 +26,7 @@ export const updateMeetup = (eventId, data) => firebase
   .collection('events')
   .doc(eventId)
   .collection('meetups')
+  .doc(data.id)
   .set({
     ...data,
     updateTimestamp: firebase.firestore.FieldValue.serverTimestamp(),

@@ -8,16 +8,22 @@ import Field from 'components/form/field'
 import { input, textarea, SubmitButton } from 'components/form'
 import { required } from 'components/form/validators'
 
+import ProposalsField from './proposalsField'
+
 import styles from './meetupForm.module.css'
 
 const MeetupForm = ({
-  onDelete, onSubmit, initialValues, submitting,
+  onDelete,
+  onSubmit,
+  initialValues,
+  submitting,
 }) => (
   <Form onSubmit={onSubmit} initialValues={initialValues}>
     {({ handleSubmit, pristine }) => (
       <form className={cn(styles.form, 'card')}>
         <Field name="name" label="Name" type="text" component={input} validate={required} />
         <Field name="description" label="Description" type="text" component={textarea} />
+        <Field name="sessions" label="Proposals" component={ProposalsField} defaultValue={[]} />
         {(initialValues && onDelete) && (
           <Button error secondary onClick={onDelete}>
             Delete Meetup
